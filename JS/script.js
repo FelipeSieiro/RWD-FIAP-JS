@@ -31,9 +31,9 @@ calculateButton.addEventListener("click", () => {
         alert("Sobrepeso")
     } else if(imc < 34.9){
         alert("Obsedidade I")
-    }else if(imc < 39.9){
+    } else if(imc < 39.9){
         alert("Obesidade II")
-    }else{
+    } else{
         alert("Obesidade III")
     }
 })
